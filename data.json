@@ -1,0 +1,92 @@
+{
+  "Coffe": [
+    {
+      "nama": "ES Kopi",
+      "foto": "images/produk/product_icekopi.jpeg",
+      "harga": "20.000",
+      "size": "500 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    },
+    {
+      "nama": "Espresso",
+      "foto": "images/produk/product_espresso.jpg",
+      "harga": "12.000",
+      "size": "250 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    },
+    {
+      "nama": "cappuccino",
+      "foto": "images/produk/product_capuchino.jpg",
+      "harga": "18.000",
+      "size": "250 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    },
+    {
+      "nama": "Vietnam Drip",
+      "foto": "images/produk/product_vietnamdrip.jpeg",
+      "harga": "22.000",
+      "size": "250 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    }
+  ],
+  "Tea": [
+    {
+      "nama": "ice tea",
+      "foto": "images/produk/product_icetea.jpeg",
+      "harga": "12.000",
+      "size": "500 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    },
+    {
+      "nama": "ice Lemon Tea",
+      "foto": "images/produk/product_icelemontea.png",
+      "harga": "17.000",
+      "size": "500 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    },
+    {
+      "nama": "ice Lychee Tea",
+      "foto": "images/produk/product_icelecitea.jpg",
+      "harga": "17.000",
+      "size": "500 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    },
+    {
+      "nama": "ice Tea Tarik",
+      "foto": "images/produk/product_iceteatarik.jpg",
+      "harga": "17.000",
+      "size": "500 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    }
+  ],
+  "Juice": [
+    {
+      "nama": "Alpukat",
+      "foto": "images/produk/product_juiceavocado.jpeg",
+      "harga": "25.000",
+      "size": "500 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    },
+    {
+      "nama": "Jambu Biji",
+      "foto": "images/produk/product_juicejambu.jpg",
+      "harga": "25.000",
+      "size": "500 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    },
+    {
+      "nama": "Mangga",
+      "foto": "images/produk/product_juicemango.jpg",
+      "harga": "25.000",
+      "size": "500 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    },
+    {
+      "nama": "Melon",
+      "foto": "images/produk/product_juicemelon.jpeg",
+      "harga": "20.000",
+      "size": "500 Ml",
+      "link": "https://shopee.co.id/eaifjlesjfi"
+    }
+  ]
+}
