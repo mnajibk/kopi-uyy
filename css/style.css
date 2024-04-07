@@ -224,19 +224,30 @@ a.chat {
     transform: translateY(30%);
   }
 }
-/* @keyframes moves {
-  from {
-    top: 0px;
-    background: red;
-  }
-  to {
-    top: 100px;
-  }
-} */
+
 .elemenAnimasi {
   animation-name: animasiKopi;
   animation-duration: 2s;
   /* animation-delay: 1s; */
+  animation-iteration-count: infinite;
+}
+
+@keyframes about {
+  0%,
+  100% {
+    transform: scale(0.8);
+    border-radius: 7% 98% 4% 98% / 98% 7% 92% 5%;
+  }
+
+  50% {
+    transform: scale(0.8);
+    border-radius: 98% 7% 97% 5% / 7% 94% 9% 98%;
+  }
+}
+
+.img-about {
+  animation-name: about;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
@@ -248,7 +259,7 @@ a.chat {
   background-image: url("../images/header/header.jpg");
   background-position: center;
   background-size: cover;
-  height: 500px !important;
+  height: 700px !important;
 }
 
 div.kanan {
@@ -420,10 +431,10 @@ section.about-us img {
   max-width: 100%;
   margin: auto;
 
-  transition: all 0.3s ease;
+  transition: all 3s ease;
 }
 section.about-us img:hover {
-  transform: scale(1.1);
+  transform: scale(1) !important;
 }
 
 /*
