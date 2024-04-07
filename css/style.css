@@ -216,18 +216,46 @@ a.chat {
    img {} berarti seluruh elemen dengan tag img (<img src="....">), 
    sedangkan .img artinya hanya elemen dengan class img (<img class="img" src="...">) 
 */
+@keyframes animasiKopi {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(30%);
+  }
+}
+/* @keyframes moves {
+  from {
+    top: 0px;
+    background: red;
+  }
+  to {
+    top: 100px;
+  }
+} */
+.elemenAnimasi {
+  animation-name: animasiKopi;
+  animation-duration: 2s;
+  /* animation-delay: 1s; */
+  animation-iteration-count: infinite;
+}
 
 /* HEADER */
 .heading {
   /* position: relative; */
+
   color: white;
   background-image: url("../images/header/header.jpg");
   background-position: center;
   background-size: cover;
+  height: 500px !important;
 }
 
 div.kanan {
   display: none;
+}
+
+img.kopi {
 }
 
 header,
