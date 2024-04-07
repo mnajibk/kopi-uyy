@@ -1,34 +1,51 @@
 @import url(../vendor/bootstrap/bootstrap-icons.css);
-
+@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
 body {
-    font-family: 'Poppins';
+  background-image: url("../images/produk/bg_produk.avif");
+  background-size: 100%;
+  font-family: "Short Stack", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 1px 1px #9b3922;
 }
 
 footer a.nav-link {
-    color: #fff;
+  color: #fff;
+}
+
+.btn:hover {
+  background: white !important;
+  color: #9b3922 !important;
+  border-color: #9b3922;
 }
 
 footer {
-    color: #fff;
-    padding: 10px 30px;
+  color: #fff;
+  padding: 10px 30px;
 }
 
 section.produk {
-    min-height: 90vh;
+  min-height: 90vh;
 }
 
 .produk .card img {
-    width: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 .produk .card-title {
-    height: 45px;
+  height: 45px;
 }
 
 .produk .hargasize {
-    height: 45px;
+  height: 45px;
 }
 
-/* Tambahan css produk tulis setelah kode ini */
+@media (max-width: 600px) {
+  body {
+    background-image: url("../images/produk/bg_produk.avif");
+    background-size: cover;
+    /* color: #fff; */
+  }
+}

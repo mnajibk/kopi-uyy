@@ -1,3 +1,5 @@
+@import url(../vendor/bootstrap/bootstrap-icons.css);
+@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
 /* Kode * di bawah ini untuk mereset tampilan setiap web browser supaya seragam */
 
 * {
@@ -59,7 +61,10 @@ body {
    mendaftarkan semua teks pada body menjadi family Poppins 
    kenapa pada body? karena elemen body membungkus semua elemen dari nav section sampai footer
    */
-  font-family: "Poppins";
+  font-family: "Short Stack", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 1px 1px #9b3922;
 }
 
 /*
@@ -189,6 +194,11 @@ a.shop {
   border-radius: 10px;
 }
 
+a.shop:hover {
+  background-color: white;
+  color: rgb(43, 33, 16);
+}
+
 a.chat {
   margin-right: 30px;
   background-color: rgb(8, 69, 8);
@@ -208,6 +218,17 @@ a.chat {
 */
 
 /* HEADER */
+.heading {
+  /* position: relative; */
+  color: white;
+  background-image: url("../images/header/header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.kanan {
+  display: none;
+}
 
 header,
 section {
@@ -216,7 +237,7 @@ section {
     pada padding dan margin ditambahkan top / right / bottom / top 
     untuk mengatur jarak masing-masing 
    */
-  padding-top: 80px;
+  padding-top: 57px;
   padding-bottom: 80px;
 
   /* margin mengatur jarak ke luar */
@@ -374,7 +395,7 @@ section.about-us img {
   transition: all 0.3s ease;
 }
 section.about-us img:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 /*
@@ -558,6 +579,14 @@ footer div.navigasi a {
 /* UNTUK kode RESPONSIF hari ke 3 tulis DI BAWAH sini */
 
 @media (max-width: 600px) {
+  .heading {
+    background-image: none;
+    color: #481e14;
+  }
+  div.kanan {
+    display: flex;
+  }
+
   header div.kiri,
   header div.kanan {
     width: 100%;
